@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace Assets.Classes
-{
     public class PersistenceHelper
     {
 
@@ -226,6 +224,7 @@ namespace Assets.Classes
 
         public List<ModeloOrgano> CargarNivelXML(string xmlFile)
         {
+			Debug.Log (xmlFile);
             //List<String> listaActivos = new List<String>();
 
             List<ModeloOrgano> listaActivos2 = new List<ModeloOrgano>();
@@ -398,5 +397,5 @@ namespace Assets.Classes
         public string Descripcion { get; set; }
     }
 
-}
+
 

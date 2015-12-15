@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-using Assets.Classes;
+using Assets;
 
 public class HitController : MonoBehaviour {
 

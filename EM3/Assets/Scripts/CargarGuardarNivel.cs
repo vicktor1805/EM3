@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using Assets.Classes;
+using Assets;
 using System.Collections.Generic;
 using System.Linq;
 using System;
@@ -10,7 +10,7 @@ public class CargarGuardarNivel : MonoBehaviour {
 
     GameObject Parent;
     public InputField fileName;
-	// Use this for initialization
+
 	void Start () {
 
        // csVariablesGlobales.ActividadXML = "PC1_A4";//this line is for edition time
@@ -41,10 +41,8 @@ public class CargarGuardarNivel : MonoBehaviour {
             }
         }
 
-        //Crear
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 
         if (Input.GetKeyDown(KeyCode.F9))

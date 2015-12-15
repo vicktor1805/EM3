@@ -6,8 +6,7 @@ using System.Text;
 using System.Xml.Serialization;
 using UnityEngine;
 
-namespace Assets.Classes
-{
+
     public class XmlHelper
     {
         public T LoadXml<T>(String fileName)
@@ -31,4 +30,4 @@ namespace Assets.Classes
             }
         }
     }
-}
+

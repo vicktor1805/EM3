@@ -79,13 +79,10 @@ public class GUILeapPointerInteraction : MonoBehaviour
         if(PlaneChild!=null)
             PlaneChild.SetActive(true);
         ModalPanel.SetActive(true);
-        //csVariablesGlobales.ObjetosActividad.Add(gameObject);
-        csVariablesGlobales.ObjetosActividad.Add(ModalPanel);
+
+		csVariablesGlobales.ObjetosActividad = new List<GameObject> ();
+        csVariablesGlobales.ObjetosActividad.Add(GameObject.Find("ModalPanel"));
         csVariablesGlobales.ObjetosActividad.Add(modelo);
-        csVariablesGlobales.ObjetosActividad.Add(GameObject.Find("Pivot"));
-        csVariablesGlobales.ObjetosActividad.Add(GameObject.Find("Light 1"));
-        csVariablesGlobales.ObjetosActividad.Add(GameObject.Find("Light 2"));
-        csVariablesGlobales.ObjetosActividad.Add(GameObject.Find("CuboProximidad"));
         csVariablesGlobales.ObjetosActividad.Add(Canvas);
         csVariablesGlobales.ObjetosActividad.Add(cameraEditor);
         Debug.Log("Objects activity to destroy: " + csVariablesGlobales.ObjetosActividad.Count);
