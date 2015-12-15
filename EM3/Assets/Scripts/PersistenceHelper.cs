@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace Assets.Classes
-{
     public class PersistenceHelper
     {
 
@@ -398,5 +396,5 @@ namespace Assets.Classes
         public string Descripcion { get; set; }
     }
 
-}
+
 

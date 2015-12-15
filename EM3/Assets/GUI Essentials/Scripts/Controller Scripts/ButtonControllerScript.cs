@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Assets.Controller;
-using Assets.Classes;
+using Assets;
+using Assets;
 using System.Collections.Generic;
 
 public class ButtonControllerScript : MonoBehaviour

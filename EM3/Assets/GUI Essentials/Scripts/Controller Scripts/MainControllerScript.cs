@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Assets.Classes;
-using Assets.Controller;
+using Assets;
+using Assets;
 using System.Collections.Generic;
 
 public class MainControllerScript : MonoBehaviour {

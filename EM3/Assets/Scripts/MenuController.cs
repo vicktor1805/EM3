@@ -4,6 +4,7 @@ using System.Collections;
 
 public class MenuController : MonoBehaviour {
 
+    
 	string ResourcesFolder;
 	GameObject Background;
 

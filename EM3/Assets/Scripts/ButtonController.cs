@@ -1,4 +1,4 @@
-﻿using Assets.Classes;
+﻿using Assets;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +7,7 @@ using System.Collections;
 //using UnityEngine;
 
 
-namespace Assets.Controller
-{
+
     public class ButtonController
     {
 
@@ -36,6 +35,22 @@ namespace Assets.Controller
                 XmlHelper xmlHelper = new XmlHelper();
                 List<Semana> ListSemanas = xmlHelper.LoadXml<List<Semana>>(XML_ESQUEMA);
                 return ListSemanas.Where(x => x.ListTemas.Exists(t => t.TemaId.Equals(name))).FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+            }
+            return null;
+        }
+
+        public List<Tema> ListarTemas(String name)
+        {
+            try
+            {
+                XmlHelper xmlHelper = new XmlHelper();
+                List<Semana> ListSemanas = xmlHelper.LoadXml<List<Semana>>(XML_ESQUEMA);
+                Semana semana = ListSemanas.Where(x => x.ListTemas.Exists(t => t.TemaId.Equals(name))).FirstOrDefault();
+                return semana.ListTemas;
+
             }
             catch (Exception ex)
             {
@@ -130,4 +145,4 @@ namespace Assets.Controller
         }
 
     }
-}
+

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Assets.Controller;
-using Assets.Classes;
+using Assets;
+using Assets;
 
 public class SemanaControllerScript : MonoBehaviour {
 
