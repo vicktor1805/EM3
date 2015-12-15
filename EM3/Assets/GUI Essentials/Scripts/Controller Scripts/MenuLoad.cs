@@ -33,6 +33,7 @@ public class MenuLoad : MonoBehaviour {
             GameObject nuevoBotonUnidad = Instantiate(ButtonUnidad) as GameObject;
 			nuevoBotonUnidad.name = semana.SemanaId;
 			nuevoBotonUnidad.GetComponentInChildren<Text>().text = semana.SemanaId;
+			nuevoBotonUnidad.GetComponent<Image>().sprite = Resources.Load<Sprite>(semana.SemanaId);
 			nuevoBotonUnidad.GetComponent<Button>().onClick.AddListener(() => { MostrarTemas(nuevoBotonUnidad.name);});
             nuevoBotonUnidad.transform.SetParent(ObjetoUnidades.transform,false);
         }
@@ -60,6 +61,7 @@ public class MenuLoad : MonoBehaviour {
 				GameObject nuevoButtonActividad = Instantiate(ButtonActividad) as GameObject;
 				nuevoButtonActividad.name = actividad.ActividadId;
 				nuevoButtonActividad.GetComponentInChildren<Text>().text = actividad.ActividadId;
+				nuevoButtonActividad.GetComponent<Image>().sprite  = Resources.Load<Sprite>("nombre");
 				nuevoButtonActividad.GetComponent<Button>().onClick.AddListener(() => { CargarModelo( nuevoButtonCapitulo.name + "_" + nuevoButtonActividad.name);});
 				nuevoButtonActividad.transform.SetParent(Panel[1].transform,false);
 			}
