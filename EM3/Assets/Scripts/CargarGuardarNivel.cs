@@ -27,7 +27,7 @@ public class CargarGuardarNivel : MonoBehaviour {
         Camera.main.transform.position = pos;
         Camera.main.transform.rotation = camara.rot;
         csVariablesGlobales.ZoomCamera = camara.ZoomCamara;
-        //Camera.main.orthographicSize = camara.ZoomCamara; // this line is for edition time
+        Camera.main.orthographicSize = camara.ZoomCamara; // this line is for edition time
         foreach (ModeloOrgano organo in listaActivos)
         {
             for (int j = 0; j < allChildrens.Length; ++j)

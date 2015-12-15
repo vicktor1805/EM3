@@ -13,6 +13,8 @@ public class GUILeapPointerInteraction : MonoBehaviour
     public GameObject Canvas;
     public GameObject cameraEditor;
     public GameObject Pivot;
+    public GameObject light;
+    public GameObject prefabGUI;
     public float velocidad = 80;
     public float movementSensitivity = 0.02f;
     public float rearmVelocity = 0.09f;
@@ -82,7 +84,9 @@ public class GUILeapPointerInteraction : MonoBehaviour
 
 		csVariablesGlobales.ObjetosActividad = new List<GameObject> ();
         csVariablesGlobales.ObjetosActividad.Add(GameObject.Find("ModalPanel"));
+        csVariablesGlobales.ObjetosActividad.Add(light);
         csVariablesGlobales.ObjetosActividad.Add(modelo);
+        csVariablesGlobales.ObjetosActividad.Add(prefabGUI);
         csVariablesGlobales.ObjetosActividad.Add(Canvas);
         csVariablesGlobales.ObjetosActividad.Add(cameraEditor);
         Debug.Log("Objects activity to destroy: " + csVariablesGlobales.ObjetosActividad.Count);
@@ -149,11 +153,13 @@ public class GUILeapPointerInteraction : MonoBehaviour
         //{
             if (Input.GetAxis("Mouse ScrollWheel") > 0) // forward
             {
-                csVariablesGlobales.ZoomCamera -= 0.35f;
+                Camera.main.orthographicSize -= 0.35f;
+                //csVariablesGlobales.ZoomCamera -= 0.35f;
             }
             if (Input.GetAxis("Mouse ScrollWheel") < 0)
             {
-                csVariablesGlobales.ZoomCamera += 0.35f;
+                Camera.main.orthographicSize += 0.35f;
+                //csVariablesGlobales.ZoomCamera += 0.35f;
             }
         //}
         ////////////////CODIGO PARA EL ZOOM CON SCROLL
