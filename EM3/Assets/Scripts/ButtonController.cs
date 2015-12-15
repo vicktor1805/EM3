@@ -41,7 +41,19 @@ using System.Collections;
             }
             return null;
         }
-
+		
+		public Semana GetSemana(String semanaID)
+		{
+			try 
+			{
+				XmlHelper xmlHelper = new XmlHelper();
+				List<Semana> lstSemanas = xmlHelper.LoadXml<List<Semana>>(XML_ESQUEMA);
+				return lstSemanas.SingleOrDefault(x => x.SemanaId.Equals(semanaID));
+			} catch (Exception ex) 
+			{
+			}
+			return null;
+		}
         public List<Tema> ListarTemas(String name)
         {
             try

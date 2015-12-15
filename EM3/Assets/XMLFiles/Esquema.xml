@@ -259,7 +259,7 @@
       </Tema>
     </ListTemas>
   </Semana>
-  <Semana>
+  <!--<Semana>
     <SemanaId>S5</SemanaId>
     <Descripcion>Semana 5</Descripcion>
     <ListTemas>
@@ -818,6 +818,6 @@
         </ListActividad>
       </Tema>
     </ListTemas>
-  </Semana>
+  </Semana>-->
 
 </ArrayOfSemana>

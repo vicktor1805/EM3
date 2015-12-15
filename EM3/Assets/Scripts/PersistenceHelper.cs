@@ -224,6 +224,7 @@ using UnityEngine;
 
         public List<ModeloOrgano> CargarNivelXML(string xmlFile)
         {
+			Debug.Log (xmlFile);
             //List<String> listaActivos = new List<String>();
 
             List<ModeloOrgano> listaActivos2 = new List<ModeloOrgano>();
