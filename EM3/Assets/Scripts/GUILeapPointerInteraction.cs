@@ -80,11 +80,9 @@ public class GUILeapPointerInteraction : MonoBehaviour
 
         if(PlaneChild!=null)
             PlaneChild.SetActive(true);
-        ModalPanel.SetActive(true);
+        //ModalPanel.SetActive(true);
 
 		csVariablesGlobales.ObjetosActividad = new List<GameObject> ();
-        csVariablesGlobales.ObjetosActividad.Add(GameObject.Find("ModalPanel"));
-        csVariablesGlobales.ObjetosActividad.Add(light);
         csVariablesGlobales.ObjetosActividad.Add(modelo);
         csVariablesGlobales.ObjetosActividad.Add(prefabGUI);
         csVariablesGlobales.ObjetosActividad.Add(Canvas);

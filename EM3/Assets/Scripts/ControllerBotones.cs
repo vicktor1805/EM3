@@ -20,9 +20,12 @@ public class ControllerBotones : MonoBehaviour {
     void Start()
     {
 
-        if (csVariablesGlobales.ListNombreLaminas.Count == 0)
+        if (csVariablesGlobales.ListNombreLaminas != null)
         {
-            ButtonShow.SetActive(false);
+            if (csVariablesGlobales.ListNombreLaminas.Count == 0)
+            {
+                ButtonShow.SetActive(false);
+            }
         }
     }
 

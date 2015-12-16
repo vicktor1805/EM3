@@ -62,6 +62,7 @@ public class MouseOrbitC : MonoBehaviour
         transform.rotation = rotation;
         transform.position = position;
         //transform.LookAt(target);
+        csVariablesGlobales.ObjetosActividad.Add(GameObject.Find("Cam Target"));
     }
 
     // Update is called once per frame

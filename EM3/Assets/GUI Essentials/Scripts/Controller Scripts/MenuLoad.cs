@@ -13,9 +13,9 @@ public class MenuLoad : MonoBehaviour {
 	public GameObject Cargando;
 	public GameObject Unidades;
 	public GameObject Capitulos;
-    public GameObject Modal;
+    public GameObject MenuModelo;
     public GameObject Header;
-    public GameObject buttonBack;
+    public GameObject Background;
     private GameObject ObjetoUnidades;
 
 
@@ -107,30 +107,20 @@ public class MenuLoad : MonoBehaviour {
 
     public void Back()
     {
+        Destroy(Camera.main.GetComponent<MouseOrbitC>());
         CambioEscena(true);
         MostrarSemanas();
         csVariablesGlobales.ObjetosActividad.ForEach(x => Destroy(x));
-        Application.LoadLevel("MainMenu");
     }
 
 	void CambioEscena(bool estado)
 	{
 		Unidades.SetActive (estado);
 		Capitulos.SetActive (estado);
-        Modal.SetActive(!estado);
+        MenuModelo.SetActive(!estado);
         Header.SetActive(estado);
-        if (estado == false)
-            Invoke("setButton", 0.2f);
-        else {
-            buttonBack.SetActive(!estado);
-        }
-        //buttonBack.SetActive(!estado);        
+        Background.SetActive(estado);      
 	}
-
-    void setButton()
-    {
-        buttonBack.SetActive(true);        
-    }
 
     public void SetButtons(Button button)
     {
