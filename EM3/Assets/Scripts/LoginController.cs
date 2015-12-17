@@ -13,29 +13,31 @@ public class LoginController : MonoBehaviour {
 	public InputField Usuario;
 	public InputField Contraseña;
 	public GameObject Error;
+	public GameObject Success;
     public GameObject Loadding;
-	bool start = false;
 	string URL = "";
 
 	void Start () {
 
 		Logo.GetComponent<Image> ().sprite = Resources.Load<Sprite> ("logo_grande");
-		start = true;
-		//Invoke ("ResizeCaret", 0.1f);
+		Invoke ("ResizeCaret", 0.1f);
 	}
 
 	void ResizeCaret()
 	{
-		Usuario.transform.GetChild(0).GetComponent<RectTransform>().pivot = new Vector2(0.5f,0.25f);
-		Contraseña.transform.GetChild(0).GetComponent<RectTransform>().pivot = new Vector2(0.5f,0.25f);
-		start = false;
+		Usuario.transform.GetChild(0).gameObject.SetActive(false);//.GetComponent<RectTransform>().pivot = new Vector2(0.5f,0.25f);
+		Contraseña.transform.GetChild (0).gameObject.SetActive(false);//.GetComponent<RectTransform>().pivot = new Vector2(0.5f,0.25f);
 	}
 
 	public void Login()
 	{
+		if (Success.activeSelf)
+			Success.SetActive (false);
+
 		if (string.IsNullOrEmpty (Usuario.text) || string.IsNullOrEmpty (Contraseña.text)) 
 		{
 			Error.SetActive(true);
+			Error.GetComponentInChildren<Text>().text = "Debe ingresar sus credenciales"; 
 		}
 
 
@@ -48,8 +50,7 @@ public class LoginController : MonoBehaviour {
             //Getting MacAddres from PC:
             string mac = GetMacAddress();
             //Service Call
-            print(Usuario.text + "_" + Contraseña.text + "_" + mac);
-            Usuario usuario = Authentication(Usuario.text, Contraseña.text,mac, "");
+            Usuario usuario = ServiceCall(Usuario.text, Contraseña.text,mac, "");
             if (usuario != null)
             {
                 Application.LoadLevel("Menu");
@@ -62,7 +63,7 @@ public class LoginController : MonoBehaviour {
         }
 	}
 
-	Usuario Authentication(string username, string password, string mac,string servicename)
+	Usuario ServiceCall(string username, string password, string mac,string servicename)
 	{
         try
         {
@@ -90,7 +91,6 @@ public class LoginController : MonoBehaviour {
 		}
 		catch (System.Exception)
 		{
-            print("Exception");
             Loadding.SetActive(false);
 			return null;
 		}
@@ -138,20 +138,24 @@ public class LoginController : MonoBehaviour {
 
     public void UpdateMacAddressw()
     {
+		if (Error.activeSelf)
+			Error.SetActive (false);
+
 
         if (string.IsNullOrEmpty (Usuario.text) || string.IsNullOrEmpty (Contraseña.text)) 
 		{
 			Error.SetActive(true);
+			Error.GetComponentInChildren<Text>().text = "Debe ingresar sus credenciales"; 
 		}
         else
         {
             Usuario usuario = new Usuario();
             string mac = GetMacAddress();
-            usuario = Authentication(Usuario.text, Contraseña.text, mac, "");
+            usuario = ServiceCall(Usuario.text, Contraseña.text, mac, "");
 
-            if (usuario != null)
+            if (usuario == null)
             {
-                
+				Success.SetActive(true);
             }
             else
             {
