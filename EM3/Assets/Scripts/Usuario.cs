@@ -19,9 +19,10 @@ public class Usuario
 	{
 	}
 
-	public Usuario(string CodUsuario, string Password)
+	public Usuario(string CodUsuario, string Password, string MacAddress)
 	{
 		this.CodUsuario = CodUsuario;
 		this.Password = Password;
+        this.MacAddress = MacAddress;
 	}
 }
