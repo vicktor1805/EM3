@@ -29,7 +29,6 @@ public class MenuLoad : MonoBehaviour {
     void MostrarSemanas()
     {
         List<Semana> lstSemanas = controller.ListarSemanas();
-
         DestruirHijos("Unidades");
 
         foreach(Semana semana in lstSemanas)
@@ -40,13 +39,19 @@ public class MenuLoad : MonoBehaviour {
             nuevoBotonUnidad.GetComponent<Image>().sprite = Resources.Load<Sprite>(semana.SemanaId);
             nuevoBotonUnidad.GetComponent<Button>().onClick.AddListener(() => { MostrarTemas(nuevoBotonUnidad.name); SetButtons(nuevoBotonUnidad.GetComponent<Button>()); });
             nuevoBotonUnidad.transform.SetParent(ObjetoUnidades.transform,false);
+
+            if(nuevoBotonUnidad.name.Equals("S1") )
+            {
+                nuevoBotonUnidad.GetComponent<Image>().color = new Color(0.5f, 0.5f, 0.5f);
+            }
+
         }
 		MostrarTemas (lstSemanas[0].SemanaId);
+        
     }
 
     void MostrarTemas(string pName)
     {
-		print (pName);
 		Semana semana = controller.GetSemana(pName);
         List<Tema> lstTemas = semana.ListTemas;
 
@@ -59,10 +64,13 @@ public class MenuLoad : MonoBehaviour {
 			nuevoButtonCapitulo.GetComponentInChildren<Text>().text = tema.Descripcion;
             nuevoButtonCapitulo.transform.SetParent(ObjetoUnidades.transform, false);
 			var Panel = nuevoButtonCapitulo.transform.GetComponentsInChildren<Image>(true);
+            float ParentWidth = nuevoButtonCapitulo.transform.parent.GetComponent<GridLayoutGroup>().cellSize.x;
+            print(ParentWidth);
 
 			foreach(Actividad actividad in tema.ListActividad)
 			{
 				GameObject nuevoButtonActividad = Instantiate(ButtonActividad) as GameObject;
+                nuevoButtonActividad.GetComponent<LayoutElement>().preferredWidth = ParentWidth;
 				nuevoButtonActividad.name = actividad.ActividadId;
 				nuevoButtonActividad.GetComponentInChildren<Text>().text = actividad.ActividadId;
 				nuevoButtonActividad.GetComponent<Button>().onClick.AddListener(() => { CargarModelo( nuevoButtonCapitulo.name + "_" + nuevoButtonActividad.name);});

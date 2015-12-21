@@ -2,18 +2,18 @@ using System;
 
 public class Usuario
 {
-	int IDUsuaruo { get; set; }
-	string CodUsuario { get; set; }
-	string Nombres {get; set;}
-	string ApellidoPaterno { get; set; }
-	string ApellidoMaterno { get; set; }
-	string Carrera { get; set; }
-	string Password { get; set; }
-	string MacAddress { get; set; }
-	string Email { get; set; }
-	string Telefono { get; set;}
-	string Celular { get; set; }
-	String Rol { get; set;}
+	public int IDUsuaruo { get; set; }
+    public string CodUsuario { get; set; }
+    public string Nombres { get; set; }
+    public string ApellidoPaterno { get; set; }
+    public string ApellidoMaterno { get; set; }
+    public string Carrera { get; set; }
+    public string Password { get; set; }
+    public string MacAddress { get; set; }
+    public string Email { get; set; }
+    public string Telefono { get; set; }
+    public string Celular { get; set; }
+    public string Rol { get; set; }
 
 	public Usuario ()
 	{

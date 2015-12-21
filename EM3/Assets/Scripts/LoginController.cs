@@ -15,7 +15,7 @@ public class LoginController : MonoBehaviour {
 	public GameObject Error;
 	public GameObject Success;
     public GameObject Loadding;
-	string URL = "";
+	string URL = "http://{}/api/UserValidation/";
 
 	void Start () {
 
@@ -25,8 +25,8 @@ public class LoginController : MonoBehaviour {
 
 	void ResizeCaret()
 	{
-		Usuario.transform.GetChild(0).gameObject.SetActive(false);//.GetComponent<RectTransform>().pivot = new Vector2(0.5f,0.25f);
-		Contraseña.transform.GetChild (0).gameObject.SetActive(false);//.GetComponent<RectTransform>().pivot = new Vector2(0.5f,0.25f);
+		Usuario.transform.GetChild(0).gameObject.SetActive(false);
+		Contraseña.transform.GetChild (0).gameObject.SetActive(false);
 	}
 
 	public void Login()
@@ -50,7 +50,7 @@ public class LoginController : MonoBehaviour {
             //Getting MacAddres from PC:
             string mac = GetMacAddress();
             //Service Call
-            Usuario usuario = ServiceCall(Usuario.text, Contraseña.text,mac, "");
+            Usuario usuario = ServiceCall(Usuario.text, Contraseña.text,mac, "VerificarUsuario");
             if (usuario != null)
             {
                 Application.LoadLevel("Menu");

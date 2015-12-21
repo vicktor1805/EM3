@@ -13,13 +13,12 @@ public class GetGameObjects : Editor
         var go = Selection.activeGameObject;
         var obj = go.GetComponentsInChildren(typeof(Transform), true);
 
-        string path = "spawnspots.txt";
+        string path = "Nombres.txt";
         TextWriter f = new StreamWriter(path);
 
         foreach (var item in obj)
         {
             GameObject g = item.gameObject;
-            Debug.Log("se agrego el objeto " + g.name);
             if (item.transform.childCount == 0)
             {
                 f.WriteLine(g.name);
@@ -28,8 +27,6 @@ public class GetGameObjects : Editor
 
         }
         f.Close();
-        Debug.Log("Saved " + obj.Length + " spawn spots to " + path);
-        Debug.Log("GET GAME OBJECTS PASO");
     }
 
 }
