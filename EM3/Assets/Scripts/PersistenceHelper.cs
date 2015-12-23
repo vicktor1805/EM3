@@ -263,6 +263,18 @@ using UnityEngine;
             Debug.Log("Se cargaron las descripciones");
             return data;
         }
+
+        public List<ModeloDescripcion> CargarDiccionario()
+        {
+            List<ModeloDescripcion> data = new List<ModeloDescripcion>();
+            Debug.Log("Cargando descripciones");
+
+            //TODO crear el xml;
+            XmlHelper xmlHelper = new XmlHelper();
+            data = xmlHelper.LoadXml<List<ModeloDescripcion>>("descripcionestest.xml");
+            Debug.Log("Se cargaron las descripciones");
+            return data;
+        }
     }
     public enum ModoVista
     {
@@ -343,6 +355,10 @@ using UnityEngine;
         public List<ModeloOrgano> ListOrganos { get; set; }
 
         public List<String> ListNombresOrganos { get; set; }
+
+        public List<String> ListTags { get; set; }
+
+        public String ActividadId { get; set; }
 
         public String ModeloPadreId { get; set; }
 
