@@ -23,7 +23,7 @@ public class SearchScript : MonoBehaviour {
         ActividadesResultado = new List<String>();
         Actividades = new List<ModeloPadre>();
 
-        DebugObtenerResultadoBusqueda("Hueso");
+        DebugObtenerResultadoBusqueda("Deltoide");
 
 	}
 	
