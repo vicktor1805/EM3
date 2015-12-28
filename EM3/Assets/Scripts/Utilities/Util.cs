@@ -26,6 +26,7 @@ public class Util : MonoBehaviour {
     public readonly string CONTAINER_GRID_ROMMS = "grvRooms";
     public readonly string CONTAINER_HEADER = "Header";
     public readonly string FONT_SOLANOGOTHIC_MVB_MDCAP = "Fonts/SolanoGothicMVB-MdCap";
+    public readonly string FONT_MONTSERRAT_BOLD = "Fonts/Montserrat-Bold";
     public readonly string ROOM_NAME = "RoomName";
     public readonly string ROOM_NAME_CONTAINER = "RoomNameContainer";
     public readonly string ERROR_UI = "ErrorBackground";

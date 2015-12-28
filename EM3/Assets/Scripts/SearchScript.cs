@@ -72,7 +72,7 @@ public class SearchScript : MonoBehaviour {
         }
     }
 
-    private List<String> ObtenerRessultadosBusqueda(string PalabraBusqueda)
+    public List<String> ObtenerRessultadosBusqueda(string PalabraBusqueda)
     {
         List<String> ActividadesResultadoTemp = new List<String>();
 
