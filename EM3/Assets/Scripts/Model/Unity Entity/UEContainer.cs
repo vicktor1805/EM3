@@ -23,7 +23,7 @@ public class UEContainer : MonoBehaviour {
     public void fillGridView()
     {
 
-        ActividadesResultado = Buscador.GetComponent<SearchScript>().ObtenerRessultadosBusqueda("Hueso");
+        ActividadesResultado = Buscador.GetComponent<SearchScript>().ObtenerRessultadosBusqueda("Musculo");
 
         if (ActividadesResultado.Count >= 0)
         {

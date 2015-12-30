@@ -4,6 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Assets;
 using System;
+using System.Text;
+using System.Globalization;
 
 public class SearchScript : MonoBehaviour {
 
@@ -23,7 +25,7 @@ public class SearchScript : MonoBehaviour {
         ActividadesResultado = new List<String>();
         Actividades = new List<ModeloPadre>();
 
-        DebugObtenerResultadoBusqueda("Deltoide");
+        //DebugObtenerResultadoBusqueda("Deltoide");
 
 	}
 	
@@ -74,6 +76,9 @@ public class SearchScript : MonoBehaviour {
 
     public List<String> ObtenerRessultadosBusqueda(string PalabraBusqueda)
     {
+        //PalabraBusqueda = PalabraBusqueda.ToLower();///VERSION PARA ESTANDARIZACION EN XML
+        //PalabraBusqueda = PalabraBusqueda.ToUpper();///VERSION PARA ESTANDARIZACION EN XML
+
         List<String> ActividadesResultadoTemp = new List<String>();
 
         Actividades = ActividadController.ListarModelosPadre("Actividades.xml");
@@ -83,12 +88,51 @@ public class SearchScript : MonoBehaviour {
             bool EncontradoEnTags = false;
             foreach (String tag in actividad.ListTags)
             {
-                if(tag.Contains(PalabraBusqueda))
+                string PalabraBusquedatemp = PalabraBusqueda;
+
+                if (tag.Contains(PalabraBusqueda))
                 {
+                    PalabraBusqueda = PalabraBusquedatemp;
+                    ActividadesResultadoTemp.Add(actividad.ActividadId);
+                    EncontradoEnTags = true;
+                    break;
+                }///VERSION PARA ESTANDARIZACION EN XML
+
+                PalabraBusqueda = PalabraBusqueda.ToLower();
+
+                if (tag.Contains(PalabraBusqueda))
+                {
+                    PalabraBusqueda = PalabraBusquedatemp;
                     ActividadesResultadoTemp.Add(actividad.ActividadId);
                     EncontradoEnTags = true;
                     break;
                 }
+                else if (tag.Contains(RemoveDiacritics(PalabraBusqueda)))
+                {
+                    PalabraBusqueda = PalabraBusquedatemp;
+                    ActividadesResultadoTemp.Add(actividad.ActividadId);
+                    EncontradoEnTags = true;
+                    break;
+                }
+
+                PalabraBusqueda = PalabraBusqueda.ToUpper();
+
+                if (tag.Contains(PalabraBusqueda))
+                {
+                    PalabraBusqueda = PalabraBusquedatemp;
+                    ActividadesResultadoTemp.Add(actividad.ActividadId);
+                    EncontradoEnTags = true;
+                    break;
+                }
+                else if (tag.Contains(RemoveDiacritics(PalabraBusqueda)))
+                {
+                    PalabraBusqueda = PalabraBusquedatemp;
+                    ActividadesResultadoTemp.Add(actividad.ActividadId);
+                    EncontradoEnTags = true;
+                    break;
+                }
+
+                PalabraBusqueda = PalabraBusquedatemp;
             }
             if (!EncontradoEnTags)
             {
@@ -110,6 +154,23 @@ public class SearchScript : MonoBehaviour {
             }
         }
         return ActividadesResultadoTemp;
+    }
+
+    private string RemoveDiacritics(string text)
+    {
+        var normalizedString = text.Normalize(NormalizationForm.FormD);
+        var stringBuilder = new StringBuilder();
+
+        foreach (var c in normalizedString)
+        {
+            var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(c);
+            if (unicodeCategory != UnicodeCategory.NonSpacingMark)
+            {
+                stringBuilder.Append(c);
+            }
+        }
+
+        return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
     }
 
     //private void 

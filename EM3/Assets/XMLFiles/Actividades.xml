@@ -3,7 +3,7 @@
   <ModeloPadre>
     <ActividadId>PC1_A1</ActividadId>
     <ListTags>
-      <string>Hueso</string>
+      <string>MUSCULO</string>
     </ListTags>
     <ListOrganos>
       
@@ -3676,6 +3676,7 @@
     <ListTags>
       <string>Musculo</string>
       <string>Hueso</string>
+      <string>Hola</string>
     </ListTags>
     
     <ListOrganos>
@@ -4272,7 +4273,9 @@
     
     <ListTags>
       <string>Cerebro</string>
+      <string>cerebro</string>
       <string>Nervio</string>
+      <string>MÚSCULO</string>
     </ListTags>
     
     <ListOrganos>
@@ -12409,6 +12412,7 @@
     <ActividadId>PC1_A4</ActividadId>
     <ListTags>
       <string>Nervio</string>
+      <string>Cerebro</string>
     </ListTags>
     
     <ListOrganos>
@@ -20545,6 +20549,7 @@
     <ActividadId>PC1_A5</ActividadId>
     <ListTags>
       <string>Nervio</string>
+    <string>musculo</string>
     </ListTags>
     
     <ListOrganos>
@@ -28681,6 +28686,7 @@
     <ActividadId>PC1_A6</ActividadId>
     <ListTags>
       <string>Nervio</string>
+    <string>musculo</string>
     </ListTags>
     
     <ListOrganos>
@@ -36817,6 +36823,7 @@
     <ActividadId>PC3_A4</ActividadId>
     <ListTags>
       <string>Nervio</string>
+      <string>músculo</string>
     </ListTags>
     
     <ListOrganos>
