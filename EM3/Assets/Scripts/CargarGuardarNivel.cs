@@ -13,10 +13,10 @@ public class CargarGuardarNivel : MonoBehaviour {
 
 	void Start () {
 
-       // csVariablesGlobales.ActividadXML = "PC1_A4";//this line is for edition time
+        //csVariablesGlobales.ActividadXML = "PC2_A5a";//this line is for edition time
         Parent = GameObject.Find("Humano");
         List<ModeloOrgano> listaActivos = new List<ModeloOrgano>();
-            
+
         var ph = new PersistenceHelper();
         listaActivos = ph.CargarNivelXML(csVariablesGlobales.ActividadXML + ".xml");
 
