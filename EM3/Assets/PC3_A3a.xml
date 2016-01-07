@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfModeloPadre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ModeloPadre>
-
-    <ActividadId>PC4_A4</ActividadId>
+    
+    <ActividadId>PC3_A3</ActividadId>
 
     <ListTags>
+      <string>oseo</string>
+      <string>huesos</string>
       <string>craneo</string>
       <string>vasculares</string>
       <string>nerviosos</string>
       <string>unidad 2</string>
       <string>nervios</string>
-      <string>nerviosos</string>
+      <string>faciales</string>
+      <string>fosas</string>
+      <string>pterigomaxilares</string>
       <string>capitulos</string>
-      <string>cabezas</string>
-      <string>constituciones</string>
       <string>elementos</string>
-      <string>anatomias</string>
-      <string>cerebro</string>
-      <string>morfologias</string>
-      <string>internas</string>
-      <string>externas</string>
-      <string>neuroanatomias</string>
-      <string>anatomia del cerebro.</string>
-      <string>morfologia interna y externa.</string>
-      <string>capitulo 4 : neuroanatomia</string>
-      <string>PC4</string>
-      <string>A4</string>
+      <string>cabezas</string>
+      <string>regiones</string>
+      <string>profundas</string>
+      <string>regiones profundas de la cabeza: fosa.</string>
+      <string>fosa pterigomaxilar.</string>
+      <string>elementos vasculares y nerviosos.</string>
+      <string>capitulo 3 : cabeza</string>
+      <string>PC3</string>
+      <string>A3</string>
     </ListTags>
-
+    
     <ListOrganos>
       <ModeloOrgano>
         <ModeloOrganoId>Humano</ModeloOrganoId>
@@ -49,210 +49,609 @@
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Brain</ModeloOrganoId>
+        <ModeloOrganoId>esqueleto</ModeloOrganoId>
         <pos>
-          <x>-0.012281239</x>
-          <y>11.41</y>
-          <z>-2.41081834</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
           <x>0</x>
-          <y>1</y>
+          <y>-1</y>
           <z>0</z>
-          <w>-4.371139E-08</w>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
             <x>0</x>
-            <y>180.000015</y>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Amygdalas_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Skull002</ModeloOrganoId>
         <pos>
-          <x>1.47436523</x>
-          <y>11.5320158</y>
-          <z>-2.55668354</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Cerebellum_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Canine_Left_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.28287387</x>
-          <y>11.1341572</y>
-          <z>-1.69579268</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Cerebral_Cortex_Left_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Canine_Right_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.26444578</x>
-          <y>10.9097176</y>
-          <z>-2.47651982</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Cerebral_Cortex_Righ_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Central_Incisor_Left_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.26444578</x>
-          <y>10.9097176</y>
-          <z>-2.47651982</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Corpus_Callosum_Left_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Central_Incisor_Right_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.2862165</x>
-          <y>11.7911463</y>
-          <z>-2.47761869</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Corpus_Callosum_Right_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Lateral_Incisor_Left_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.2862165</x>
-          <y>11.7911463</y>
-          <z>-2.47761869</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Fornix_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Lateral_Incisor_Right_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.08767128</x>
-          <y>11.4701853</y>
-          <z>-2.89748669</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Medulla_Lowpoly001</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Molar_1_Left_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.2243073</x>
-          <y>10.4203873</y>
-          <z>-2.11931658</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Pituitary_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Molar_2_Left_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.35305619</x>
-          <y>11.4679327</y>
-          <z>-2.45692754</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Thalamus_Highpoly</ModeloOrganoId>
+        <ModeloOrganoId>Male_Skeletal_Lower_Molar_2_Right_Geo002</ModeloOrganoId>
         <pos>
-          <x>1.34987426</x>
-          <y>11.4797382</y>
-          <z>-2.45692754</z>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>0.7071068</y>
-          <z>0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
-            <x>270</x>
-            <y>180.000015</y>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Lower_Premolar_1_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Lower_Premolar_2_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Lower_Premolar_2_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Mandible_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Skull_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Canine_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Canine_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Central_Incisor_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Central_Incisor_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Lateral_Incisor_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Lateral_Incisor_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Molar_1_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Molar_1_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Molar_2_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Molar_2_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Premolar_1_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Premolar_2_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Premolar_2_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Lower_Molar_1_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Lower_Premolar_1_Left_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Male_Skeletal_Upper_Premolar_1_Right_Geo002</ModeloOrganoId>
+        <pos>
+          <x>1.27543759</x>
+          <y>-14.920001</y>
+          <z>-2.14163661</z>
+        </pos>
+        <rot>
+          <x>0</x>
+          <y>-1</y>
+          <z>0</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>0</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
@@ -268,10 +667,10 @@
           <x>0</x>
           <y>-1</y>
           <z>0</z>
-          <w>-4.371139E-08</w>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
             <x>0</x>
-            <y>180</y>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
@@ -279,18 +678,18 @@
       <ModeloOrgano>
         <ModeloOrganoId>arteries</ModeloOrganoId>
         <pos>
-          <x>1.27543759</x>
+          <x>1.27543771</x>
           <y>-1.10521758</y>
           <z>-2.59597921</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>-0.7071068</y>
-          <z>-0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>-1.15202326E-07</x>
+          <y>0.7071068</y>
+          <z>0.7071068</z>
+          <w>1.15202326E-07</w>
           <eulerAngles>
             <x>270</x>
-            <y>180</y>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
@@ -298,18 +697,18 @@
       <ModeloOrgano>
         <ModeloOrganoId>artery_head</ModeloOrganoId>
         <pos>
-          <x>1.27543759</x>
+          <x>1.27543771</x>
           <y>11.00517</y>
           <z>-2.522307</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>-0.7071068</y>
-          <z>-0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>-1.15202326E-07</x>
+          <y>0.7071068</y>
+          <z>0.7071068</z>
+          <w>1.15202326E-07</w>
           <eulerAngles>
             <x>270</x>
-            <y>180</y>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
@@ -322,14 +721,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -341,14 +740,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -360,14 +759,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -379,14 +778,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -398,14 +797,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -417,14 +816,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -436,14 +835,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -455,14 +854,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -474,14 +873,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -493,14 +892,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -512,14 +911,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -531,14 +930,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -550,14 +949,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -569,14 +968,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -588,14 +987,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -607,14 +1006,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -626,14 +1025,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -645,14 +1044,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -664,14 +1063,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -683,14 +1082,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -702,14 +1101,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -721,14 +1120,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -740,14 +1139,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -759,14 +1158,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -778,14 +1177,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -797,14 +1196,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -816,14 +1215,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -835,14 +1234,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -854,14 +1253,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -873,14 +1272,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -892,14 +1291,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -911,14 +1310,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -930,14 +1329,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -949,14 +1348,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -968,14 +1367,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -987,14 +1386,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1006,14 +1405,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1025,14 +1424,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1044,14 +1443,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1063,14 +1462,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1082,14 +1481,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1101,14 +1500,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1120,14 +1519,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1139,14 +1538,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1158,14 +1557,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1177,14 +1576,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1196,14 +1595,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1215,14 +1614,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1234,14 +1633,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1253,14 +1652,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1272,14 +1671,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1291,14 +1690,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1310,14 +1709,14 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1329,32 +1728,32 @@
           <z>-2.141637</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
         <ModeloOrganoId>veins</ModeloOrganoId>
         <pos>
-          <x>1.27543759</x>
+          <x>1.27543783</x>
           <y>-1.01194346</y>
           <z>-2.74718285</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>-0.7071068</y>
-          <z>-0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>-1.15202326E-07</x>
+          <y>0.7071068</y>
+          <z>0.7071068</z>
+          <w>1.15202326E-07</w>
           <eulerAngles>
             <x>270</x>
-            <y>180</y>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
@@ -1362,18 +1761,18 @@
       <ModeloOrgano>
         <ModeloOrganoId>head</ModeloOrganoId>
         <pos>
-          <x>1.27543759</x>
+          <x>1.27543771</x>
           <y>11.0950575</y>
           <z>-2.52525854</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
-          <y>-0.7071068</y>
-          <z>-0.7071068</z>
-          <w>-3.090862E-08</w>
+          <x>-1.15202326E-07</x>
+          <y>0.7071068</y>
+          <z>0.7071068</z>
+          <w>1.15202326E-07</w>
           <eulerAngles>
             <x>270</x>
-            <y>180</y>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
@@ -1386,14 +1785,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1405,14 +1804,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1424,14 +1823,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1443,14 +1842,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1462,14 +1861,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1481,14 +1880,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1500,14 +1899,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1519,14 +1918,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1538,14 +1937,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1557,14 +1956,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1576,14 +1975,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1595,14 +1994,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1614,14 +2013,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1633,14 +2032,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1652,14 +2051,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1671,14 +2070,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1690,14 +2089,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1709,14 +2108,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1728,14 +2127,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1747,14 +2146,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1766,14 +2165,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1785,14 +2184,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1804,14 +2203,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1823,14 +2222,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1842,14 +2241,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1861,14 +2260,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1880,14 +2279,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1899,14 +2298,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1918,14 +2317,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1937,14 +2336,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1956,14 +2355,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1975,14 +2374,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -1994,14 +2393,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2013,14 +2412,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2032,14 +2431,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2051,14 +2450,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2070,14 +2469,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2089,14 +2488,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2108,14 +2507,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2127,14 +2526,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2146,14 +2545,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2165,14 +2564,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2184,14 +2583,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2203,14 +2602,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2222,14 +2621,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2241,14 +2640,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2260,14 +2659,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2279,14 +2678,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2298,14 +2697,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2317,14 +2716,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2336,14 +2735,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2355,14 +2754,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2374,14 +2773,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2393,14 +2792,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2412,14 +2811,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2431,14 +2830,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2450,14 +2849,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2469,14 +2868,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2488,14 +2887,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2507,14 +2906,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2526,14 +2925,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2545,14 +2944,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2564,14 +2963,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2583,14 +2982,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2602,14 +3001,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2621,14 +3020,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2640,14 +3039,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2659,14 +3058,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2678,14 +3077,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2697,14 +3096,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2716,14 +3115,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2735,14 +3134,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2754,14 +3153,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2773,14 +3172,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2792,14 +3191,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2811,14 +3210,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2830,14 +3229,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2849,14 +3248,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2868,14 +3267,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2887,14 +3286,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2906,14 +3305,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2925,14 +3324,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2944,14 +3343,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2963,14 +3362,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -2982,14 +3381,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -3001,14 +3400,14 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
@@ -3020,19 +3419,19 @@
           <z>-2.14163828</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <x>1.37331874E-14</x>
+          <y>1.00000012</y>
+          <z>-8.42937E-08</z>
+          <w>1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Sistema Nervioso2</ModeloOrganoId>
+        <ModeloOrganoId>Sistema_Nervioso</ModeloOrganoId>
         <pos>
           <x>1.5077188</x>
           <y>-14.920001</y>
@@ -3042,10 +3441,29 @@
           <x>0</x>
           <y>-1</y>
           <z>0</z>
-          <w>-4.371139E-08</w>
+          <w>-1.62920685E-07</w>
           <eulerAngles>
             <x>0</x>
-            <y>180</y>
+            <y>179.999985</y>
+            <z>0</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>Nervous_Brain_Stem_Geo</ModeloOrganoId>
+        <pos>
+          <x>1.31094146</x>
+          <y>-14.920001</y>
+          <z>-2.16728544</z>
+        </pos>
+        <rot>
+          <x>-1.37331866E-14</x>
+          <y>-1</y>
+          <z>8.42936956E-08</z>
+          <w>-1.62920685E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
@@ -3053,522 +3471,522 @@
       <ModeloOrgano>
         <ModeloOrganoId>nervous_head</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
+          <x>1.3101871</x>
           <y>10.9404173</y>
           <z>-2.76461315</z>
         </pos>
         <rot>
-          <x>3.090862E-08</x>
+          <x>1.15202326E-07</x>
           <y>-0.7071068</y>
           <z>-0.7071068</z>
-          <w>-3.090862E-08</w>
+          <w>-1.15202326E-07</w>
           <eulerAngles>
             <x>270</x>
-            <y>180</y>
+            <y>179.999985</y>
             <z>0</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements01</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial1</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial2</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements02</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial3</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial4</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial5</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial Ramo Bucal</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial Ramo Bucal1</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements03</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial Ramo Bucal2</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial Ramo Bucal3</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Occipital1</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Occipital</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
-        </pos>
-        <rot>
-          <x>-3.68459459E-15</x>
-          <y>-1.00000012</y>
-          <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
-          <eulerAngles>
-            <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
-          </eulerAngles>
-        </rot>
-      </ModeloOrgano>
-      <ModeloOrgano>
-        <ModeloOrganoId>Nervio Alveolar</ModeloOrganoId>
-        <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Alveolar1</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements04</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Alveolar2</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements05</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Alveolar3</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements06</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial Ramo Mandibular</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements07</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial Ramo Mandibular1</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements08</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial Ramo Temporal</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements09</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
-        <ModeloOrganoId>Nervio Facial Ramo Temporal1</ModeloOrganoId>
+        <ModeloOrganoId>nervous_head_Elements10</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
-          <y>-14.9200125</y>
-          <z>-2.16648984</z>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements11</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements12</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements13</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements14</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements15</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
         <ModeloOrganoId>nervous_head_Elements16</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
         <ModeloOrganoId>nervous_head_Elements17</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
         <ModeloOrganoId>nervous_head_Elements18</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements19</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements20</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements21</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements22</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
+          </eulerAngles>
+        </rot>
+      </ModeloOrgano>
+      <ModeloOrgano>
+        <ModeloOrganoId>nervous_head_Elements23</ModeloOrganoId>
+        <pos>
+          <x>1.31018686</x>
+          <y>-14.9200048</y>
+          <z>-2.16649</z>
+        </pos>
+        <rot>
+          <x>-1.37331874E-14</x>
+          <y>-1.00000012</y>
+          <z>8.42937E-08</z>
+          <w>-1.629207E-07</w>
+          <eulerAngles>
+            <x>9.659346E-06</x>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
         <ModeloOrganoId>nervous_head_Elements24</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
         <ModeloOrganoId>nervous_head_Elements25</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
         <ModeloOrganoId>nervous_head_Elements26</ModeloOrganoId>
         <pos>
-          <x>1.310187</x>
+          <x>1.31018686</x>
           <y>-14.9200048</y>
           <z>-2.16649</z>
         </pos>
         <rot>
-          <x>-3.68459459E-15</x>
+          <x>-1.37331874E-14</x>
           <y>-1.00000012</y>
           <z>8.42937E-08</z>
-          <w>-4.37113918E-08</w>
+          <w>-1.629207E-07</w>
           <eulerAngles>
             <x>9.659346E-06</x>
-            <y>180</y>
-            <z>-4.85314136E-20</z>
+            <y>179.999985</y>
+            <z>-9.706283E-20</z>
           </eulerAngles>
         </rot>
       </ModeloOrgano>
       <ModeloOrgano>
         <ModeloOrganoId>Pivot</ModeloOrganoId>
         <pos>
-          <x>1.1177187</x>
-          <y>1.11</y>
-          <z>-0.8108183</z>
+          <x>1.22771883</x>
+          <y>11.15</y>
+          <z>-2.13081837</z>
         </pos>
         <rot>
           <x>0</x>
@@ -3596,20 +4014,20 @@
     </rot>
     <Camara>
       <CamaraId>0</CamaraId>
-      <ZoomCamara>2.5</ZoomCamara>
+      <ZoomCamara>1.69000089</ZoomCamara>
       <pos>
-        <x>-0.310379624</x>
-        <y>12.1625166</y>
-        <z>-59.97732</z>
+        <x>-51.0551338</x>
+        <y>20.6258583</y>
+        <z>0.32989192</z>
       </pos>
       <rot>
-        <x>0.009685964</x>
-        <y>0.009753324</y>
-        <z>-9.447928E-05</z>
-        <w>0.9999055</w>
+        <x>0.06371343</x>
+        <y>0.722158134</y>
+        <z>-0.06711967</z>
+        <w>0.6855095</w>
         <eulerAngles>
-          <x>1.1099999</x>
-          <y>1.11771882</y>
+          <x>10.6199961</x>
+          <y>92.98273</y>
           <z>0</z>
         </eulerAngles>
       </rot>

@@ -3,6 +3,40 @@
   <ModeloPadre>
     <ListOrganos>
       <ModeloOrgano>
+        
+        <ActividadId>PC2_A4</ActividadId>
+        
+        <ListTags>
+          <string>nervios</string>
+          <string>musculos</string>
+          <string>arterias</string>
+          <string>venas</string>
+          <string>circulatorio</string>
+          <string>muscular</string>
+          <string>oseo</string>
+          <string>huesos</string>
+          <string>rodillas</string>
+          <string>vasculares</string>
+          <string>regiones</string>
+          <string>anteriores</string>
+          <string>posteriores</string>
+          <string>piernas</string>
+          <string>unidad 1</string>
+          <string>anteriores</string>
+          <string>posteriores</string>
+          <string>piernas</string>
+          <string>miembros</string>
+          <string>inferiores</string>
+          <string>nerviosos</string>
+          <string>elementos</string>
+          <string>capitulos</string>
+          <string>region rodilla. region Anterior y region posterior de pierna</string>
+          <string>elementos vasculares y nerviosos.</string>
+          <string>capitulo 2 : miembro inferior</string>
+          <string>PC2</string>
+          <string>A4</string>
+        </ListTags>
+        
         <ModeloOrganoId>Humano</ModeloOrganoId>
         <pos>
           <x>0.667718768</x>

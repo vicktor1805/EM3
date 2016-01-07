@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfModeloPadre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ModeloPadre>
+
+    <ActividadId>PC3_A6</ActividadId>
+
+    <ListTags>
+      <string>craneo</string>
+      <string>vasculares</string>
+      <string>nerviosos</string>
+      <string>unidad 2</string>
+      <string>nervios</string>
+      <string>nerviosos</string>
+      <string>capitulos</string>
+      <string>cabezas</string>
+      <string>internos</string>
+      <string>medios</string>
+      <string>externos</string>
+      <string>anatomicas</string>
+      <string>divisiones</string>
+      <string>elementos</string>
+      <string>constituciones</string>
+      <string>oidos</string>
+      <string>oido. division anatomica</string>
+      <string>oido: externo, medio e interno.</string>
+      <string>nervios craneales.</string>
+      <string>constitucion. elementos vasculares y nerviosos.</string>
+      <string>capitulo 3 : cabeza</string>
+      <string>PC3</string>
+      <string>A6</string>
+    </ListTags>
+
     <ListOrganos>
       <ModeloOrgano>
         <ModeloOrganoId>Humano</ModeloOrganoId>
